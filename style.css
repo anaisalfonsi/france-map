@@ -1,0 +1,28 @@
+/* France Map
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+- Mobile (up to 767px)
+- Tablet (from 768px to 991px)
+- Desktop (from 992px)
+ */
+
+path {
+    transition: 0.6s fill;
+}
+
+path:hover {
+    cursor: pointer;
+	fill: #00B69B;
+}
+
+.test path {
+    fill: deeppink;
+}
+
+.test2 {
+    fill: darkviolet;
+}
+
+.one-video__container {
+    display: none;
+}
