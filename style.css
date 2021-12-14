@@ -75,15 +75,17 @@
 
 .one-video__container button {
     cursor: pointer;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     border: #5C1E5E solid 1px;
     background-color: transparent;
     color: #5C1E5E;
     border-radius: 20px;
     font-size: 0.8em;
-}
-
-.one-video__container button i {
-
+    padding: 8px 16px;
+    margin: 8% 0;
 }
 
 .test path {
