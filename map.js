@@ -25,7 +25,8 @@ for (let region of allRegions) {
 }
 
 for (let video of allVideos) {
-    video.addEventListener('click', () => {
+    let popupBtn = video.querySelector('button');
+    popupBtn.addEventListener('click', () => {
         const videoFrame = video.querySelector('iframe');
         const modal = document.querySelector('#videos-modal');
         const modalVideoFrame = modal.querySelector('.modal-content iframe');
