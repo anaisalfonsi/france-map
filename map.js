@@ -21,6 +21,7 @@ for (let region of allRegions) {
             let name = region.dataset.name;
             let regionVideos = document.querySelectorAll(`.one-video__container[data-name="${name}"]`);
             for (let video of regionVideos) {
+                video.style.display = 'none';
                 video.style.display === 'block' ? video.style.display = 'none' : video.style.display = 'block';
                 let h2 = document.createElement('h2');
                 h2.innerHTML = `${name}`;

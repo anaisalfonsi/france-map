@@ -1,6 +1,5 @@
 /* France Map
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .map-videos__section {
     width: 80%;
     margin: 0 auto 6vh auto;
@@ -22,12 +21,14 @@
 .videos-popup iframe {
     position: absolute;
     top: 25%;
-    left: 25%;
+    right: 25%;
 }
 
 .video-btn-close {
     color: #fff;
-    float: right;
+    position: absolute;
+    top: 25%;
+    right: 23%;
     font-size: 38px;
     font-weight: bold;
 }
@@ -41,6 +42,7 @@
 
 .map-videos__container {
     display: flex;
+    height: 800px;
 }
 
 #france-map__container svg {
@@ -50,13 +52,14 @@
 
 #all-videos__container {
     width: 50%;
+    overflow: scroll;
 }
 
-path {
+#france-map__container path {
     transition: 0.6s fill;
 }
 
-path:hover {
+#france-map__container path:hover {
     cursor: pointer;
 	fill: #00B69B;
 }
@@ -73,5 +76,4 @@ path:hover {
 .test2 {
     fill: darkviolet;
 }
-
 
